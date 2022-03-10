@@ -1,0 +1,21 @@
+Para poder ver los archivos de manera más efectiva, se SUGIERE seguir los siguientes pasos y notas:
+
+- Ir leyendo la documentación a la par de los siguientes pasos (OPCIONAL)
+- Analizar primero los diagramas de Star UML
+- Revisar y probar el código sql:
+	- Abrir, de preferencia, todos los archivos en MYSQL Workbench, fueron hechos en Notepad++, pero esto es indistinto,
+	porque también sirve ejecutando cada archivo desde el CMD:
+	- esquema_uno.sql construye la base de datos y sus tablas
+	- mejoras.sql tiene los constraint, los trigger, procesos almacenados y vistas
+	- insercion.sql contiene algunas inserciones que se pueden usar en la base de datos para pruebas
+	
+	SI POR ALGUNA RAZÓN LOS ARCHIVOS NO FUNCIONAN DE MANERA CORRECTA POR SEPARADO SE DEJARA UNA VERSIÓN DEL ARCHIVO
+	CON TODO EL CÓDIGO SQL JUNTO, SOLO SE SECCIONO PARA FACILITAR SU EJECUCIÓN Y LECTURA, YA QUE AL DEJAR EL CÓDIGO
+	DE LA CONSTRUCCIÓN DE LA BASE DE DATOS JUNTO A LOS DEMÁS (SOLO EN EL CASO QUE SE EJECUTE EN EL CMD EL ARCHIVO COMPLETO),
+	ESTE POR SUS MISMAS INSTRUCCIONES VA A "RESETEAR" LA TABLA, ES DECIR, BORRARLA Y VOLVERLA A CREAR, LO QUE PUEDE SER INCOMODO
+	A LA HORA DE SOLO QUERER PROBAR INSERCIONES.
+
+- Leer y checar la documentación que tiene detalles de como funciona la base de datos (Nota: Como se le fueron haciendo modificaciones
+a la base de datos algunas capturas de pantalla pueden tener un par de datos desactualizados (nombres de atributos por ejemplo), 
+muy pocos y de poca importancia, pero puede tenerlos). TODOS estos nombres y cuestiones ya estan corregidas en los diagramas y en 
+el código SQL(se hacen algunas notas de estos cambios en la documentación de todas formas).
